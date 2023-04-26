@@ -1,0 +1,42 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App{
+  text-align:center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  width: 300px;
+  height: 400px;
+  background: black;
+  margin:0 20px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container ul li{
+  background: pink;
+  margin: 4px;
+  width:400;
+}
+.Pictures{
+  margin: 10px;
+}
+
+.Board{
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  overflow:scroll;
+  border: 2px solid black;
+}
+input{
+  overflow:none;
+}
+img{
+  margin: 10px;
+}
